@@ -1,0 +1,55 @@
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid red;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+}
+
+.ovale{
+
+      width: 200px;
+      height: 100px;
+      border-radius: 100%;
+      background: dodgerblue;
+
+}
+
+
+.card {
+  margin-top: 49px;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    background: dodgerblue;
+    border-radius: 8%;
+    color: #fff;
+    box-shadow: 2px 2px 20px black;
+}
+
+.card h1 {
+    font-size: 30px;
+    text-shadow: 1px 1px 10px black;
+}
+
+table {
+  margin-top: 49px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  color: #fff;
+  background-color: dodgerblue;
+}
+
+tr:nth-child(even) {
+  background-color: #e6f9ff;
+}
